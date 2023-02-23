@@ -1,1 +1,26 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+
+
+
+
+.navbar-nav li a:hover{
+    color:orange;
+}
+
+
+.main
+{
+    background: url("/ABOUT US/assets/pie-logo-about-bg.png");
+    mix-blend-mode: darken;
+    padding-left: .8rem;
+        
+    background: linear-gradient(104.87deg, rgba(255, 140, 5, 0.87) 0%, rgba(255, 0, 0, 0.3) 100%);
+    position: absolute;
+
+
+}
 
