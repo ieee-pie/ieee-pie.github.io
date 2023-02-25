@@ -1,0 +1,84 @@
+/*NAV */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar-nav li a:hover {
+  color: orange;
+}
+
+.navlc {
+  padding-left: 750px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+.navlc li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (max-width: 500px) {
+  .navlc {
+    padding-left: 0px !important;
+  }
+}
+/*NAV END*/
+/*BANNER*/
+.bannerblog h1 {
+  padding-left: 120px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+}
+.bannerblog p {
+  padding-left: 120px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.bannerblog {
+  padding-bottom: 90px;
+}
+/*BANNER END*/
+/*FOOTER*/
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-youtube-play {
+  color: white;
+}
+.fa-spotify {
+  color: white;
+}
+.ft {
+  list-style-type: none;
+}
+.ftimg {
+  position: left;
+}
+.copy {
+  padding-top: 100px;
+} /*END OF FOOTER*/ ;
