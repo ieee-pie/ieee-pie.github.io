@@ -14,7 +14,21 @@
   }
 }
 /*NAV END*/
-
+/*BANNER*/
+.bannerblog h1 {
+  padding-left: 120px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+}
+.bannerblog p {
+  padding-left: 120px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.bannerblog {
+  padding-bottom: 90px;
+}
+/*BANNER END*/
 /*FOOTER*/
 
 /* Style all font awesome icons */
