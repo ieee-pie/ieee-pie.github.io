@@ -1,0 +1,73 @@
+
+.mainheading
+{
+text-align: center;
+padding-bottom:10px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 73px;
+
+}
+.subhead
+{
+    text-align: center;
+    padding-bottom:10px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 61px;
+
+color: #000000;
+
+}
+.heading2
+{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 73px;
+text-align: center;
+color: #040000;
+
+}
+.title
+{
+    text-align: center;
+}
+.proffesional
+{
+    width: 95%;
+    margin-left: 10px;
+    padding-left: 30px;
+    position: relative;
+    left:5px;
+}
+.student-team1
+{
+    width: 100%;
+    margin-left: 10px;
+    padding-left: 30px;
+    position: relative;
+    left:5px;
+}
+.student-team2
+{
+    width: 95%;
+    margin-left: 10px;
+    padding-left: 30px;
+    position: relative;
+    left:5px; 
+}
+.student-team3
+{
+    
+    width: 95%;
+    margin-left: 10px;
+    padding-left: 30px;
+    position: relative;
+    left:5px; 
+}

@@ -139,3 +139,36 @@ padding: 15px;
 
 color: #FFFDFD
 }
+@media screen and (max-width: 500px){
+    .main
+{
+   max-width:  500px;;
+    background: linear-gradient(104.87deg, rgba(255, 140, 5, 0.87) 0%, rgba(255, 0, 0, 0.3) 100%);
+   position: absolute;
+    
+}
+.about p{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 32px;
+    margin: 10px;
+    color: #FFFFFF;
+    overflow-x: hidden;
+    align-content: center;
+    }
+    .about h1
+    {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 73px;
+        letter-spacing: 0.1em;
+        
+        color: #050505;
+        text-align: center;
+    }
+    
+}
