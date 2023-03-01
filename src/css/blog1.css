@@ -22,6 +22,22 @@
   }
 }
 /*NAV END*/
+/*MAIN*/
+.name h5 {
+  font-family: "Tilt Neon", cursive;
+  font-weight: 5px;
+  font-size: 25px;
+}
+.name p {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  font-weight: 2px;
+}
+.name img {
+  max-width: 30%;
+  height: auto;
+}
+/*MAIN END*/
 /*FOOTER*/
 
 /* Style all font awesome icons */
