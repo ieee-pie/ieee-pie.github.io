@@ -9,7 +9,7 @@
 
 .main
 {
-   
+    max-width: 100%;
     background: linear-gradient(104.87deg, rgba(255, 140, 5, 0.87) 0%, rgba(255, 0, 0, 0.3) 100%);
    position: absolute;
     
@@ -139,7 +139,7 @@ padding: 15px;
 
 color: #FFFDFD
 }
-@media screen and (max-width: 500px){
+/* @media screen and (max-width: 500px){
     .main
 {
    max-width:  500px;;
@@ -171,4 +171,4 @@ color: #FFFDFD
         text-align: center;
     }
     
-}
+} */
