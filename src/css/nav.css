@@ -1,5 +1,9 @@
 /*NAV */
 
+.navbar-nav li a:hover{
+  color:orange;
+}
+
 .navlc li {
   padding-left: 10px;
   padding-right: 10px;
