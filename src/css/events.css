@@ -36,12 +36,14 @@
     position: relative;
     top: -10px;
     background-color: #fff;
-    padding: 2% 5vw;
+    padding: 1% 5vw;
     width: 100%;
     align-items: center;
 }
 
 .eventsection h2 {
+    font-size: 2.5rem;
+    padding: 2% 0 1% 0;
     color: #000;
     text-align: center;
 
