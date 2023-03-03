@@ -3,7 +3,19 @@
 .img-fluid {
     background-size: cover;
 }
+.bg-image{
+    display: flex;
+    align-content: end;
+    flex-wrap: wrap;
+    
+}
+.bannerblog{
+    height: fit-content;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
 
+}
 .bannerblog h1 {
     font-family: 'Montserrat';
     font-style: normal;
