@@ -3,25 +3,7 @@
   margin: 0px;
   padding: 0px;
 }
-.navbar-nav li a:hover {
-  color: orange;
-}
 
-.navlc {
-  padding-left: 750px;
-  padding-right: 0px;
-  margin-right: 0px;
-}
-.navlc li {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-@media screen and (max-width: 600px) {
-  .navlc {
-    padding-left: 0px !important;
-  }
-}
-/*NAV END*/
 /*BANNER*/
 
 .bannerblog h1 {

@@ -1,22 +1,32 @@
-
-
-
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Hind');
 
 .navbar-nav li a:hover{
     color:orange;
 }
 
+.bgim{
+    position: absolute;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
 .main
 {
+    background-image: linear-gradient(104.87deg, rgba(255, 140, 5, 0.87) 0%, rgba(255, 0, 0, 0.3) 100%), url(/images/logos/a.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   background-blend-mode: screen;
     max-width: 100%;
-    background: linear-gradient(104.87deg, rgba(255, 140, 5, 0.87) 0%, rgba(255, 0, 0, 0.3) 100%);
    position: absolute;
     
 }
 .about{
 font-family: 'Hind';
-font-style: normal;
 font-weight: 400;
 font-size: 40px;
 line-height: 64px;
@@ -100,19 +110,19 @@ color: #050505;
 }
 .gallery
 {
-    max-width: 60%;
+    
     position: relative;
     left: 280px;
 }
-.gallery img{
-    max-width: 100vw;
-}
+
 
 .ytvideo
 {
-    position: sticky;
+
+    position: block;
+    flex:2 1;
     border: 1px solid #000;
-    width: 1200px;
+    width: 80%;
     height: 500px;
     margin:auto;
     margin-top:100px;
@@ -123,7 +133,8 @@ color: #050505;
 { 
    
     position: relative;
-    left: 730px;
+   max-width: 100%;;
+    right:5%;
     top: 55px;
 }
 .ytvideo p{
@@ -139,19 +150,13 @@ padding: 15px;
 
 color: #FFFDFD
 }
-/* @media screen and (max-width: 500px){
-    .main
-{
-   max-width:  500px;;
-    background: linear-gradient(104.87deg, rgba(255, 140, 5, 0.87) 0%, rgba(255, 0, 0, 0.3) 100%);
-   position: absolute;
+ @media screen and (max-width: 500px){
     
-}
 .about p{
     font-family: 'Hind';
     font-style: normal;
     font-weight: 200;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 32px;
     margin: 10px;
     color: #FFFFFF;
@@ -171,4 +176,52 @@ color: #FFFDFD
         text-align: center;
     }
     
-} */
+    .mission p
+{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 32px;
+    margin: 10px;
+    color: #FFFFFF;
+    overflow-x: hidden;
+    align-content: center;
+    
+
+}
+.mission h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 73px;
+    letter-spacing: 0.1em;    
+    color: #050505;
+    text-align: center;
+
+}
+.vision
+{
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 10px;
+    color: #FFFFFF;
+    overflow-x: hidden;
+    align-content: center;
+}
+.vision h2
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 73px;
+    letter-spacing: 0.1em;    
+    color: #050505;
+    text-align: center;
+}
+} 

@@ -1,4 +1,6 @@
-
+body{
+    background: linear-gradient(68.68deg, #31FF6B 0.77%, rgba(0, 255, 163, 0.86) 48.21%, #2898FF 99.99%);
+}
 .mainheading
 {
 text-align: center;
