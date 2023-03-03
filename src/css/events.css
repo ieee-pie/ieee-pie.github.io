@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-p{
-    font-size: 2.375rem;
-}
-h1{
-    font-size: 5rem;
-}
+
+
 .img-fluid {
     background-size: cover;
 }
@@ -12,8 +8,8 @@ h1{
     display: flex;
     align-content: end;
     flex-wrap: wrap;
-    
 }
+
 .bannerblog{
     height: fit-content;
     margin-bottom: 20px;
@@ -25,12 +21,16 @@ h1{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 5rem;
     line-height: 98px;
     letter-spacing: 0.15em;
     color: #FFFFFF;
 }
+.bannerblog p{
 
+        font-size: 1.5rem;
+        padding-left: .2em;
+    }
 .eventsection {
     box-sizing: border-box;
     position: relative;

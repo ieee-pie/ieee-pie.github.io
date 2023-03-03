@@ -14,3 +14,6 @@
   }
 }
 /*NAV END*/
+body::-webkit-scrollbar{
+  width:0 ;
+}
