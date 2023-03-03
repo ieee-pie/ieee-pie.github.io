@@ -1,21 +1,98 @@
-.img-fluid
-{
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.img-fluid {
     background-size: cover;
 }
 
-.bannerblog h1
-{
+.bannerblog h1 {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 80px;
-line-height: 98px;
-letter-spacing: 0.15em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
 
-color: #FFFFFF;
+.eventsection {
+    box-sizing: border-box;
+    position: relative;
+    top: -10px;
+    background-color: #fff;
+    padding: 3% 5vw;
+    width: 100%;
+    align-items: center;
+}
 
+.eventsection h2 {
+    color: #000;
+    text-align: center;
 
 }
-.bannerblog p{
-    
+
+.eventsub {
+    justify-content: space-between;
+    grid-row-gap: 1em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.eventcard {
+    overflow: hidden;
+    height: 30rem;
+    width: 27vw;
+    background: #FFFFFF;
+    border: 1px solid #C9C9C9;
+    border-radius: 10px;
+    transition: .2s all;
+}
+
+.eventcard:focus,
+.eventcard:hover {
+    box-shadow: 0 0 1.5em 0.25em rgb(0 0 0 / 25%);
+}
+
+.eventcard:focus .eventimg::before,
+.eventcard:hover .eventimg::before {
+    background: #00000041;
+}
+
+.eventcard:focus img,
+.eventcard:hover img {
+    transform: scale(1.1);
+}
+
+.eventimg::before {
+    z-index: 1;
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #00000000;
+    transition: .2s all;
+}
+
+.eventimg {
+    overflow: hidden;
+    position: relative;
+    height: 50%;
+}
+
+.eventimg img {
+    position: static;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .2s all;
+}
+
+.eventc {
+    padding: 1em;
+}
+
+.eventc p {
+    font-family: Montserrat;
+    margin-top: 0;
 }
