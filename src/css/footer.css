@@ -36,6 +36,10 @@
 }
 .ft {
   list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  padding: 0;
 }
 .ftimg {
   position: left;
