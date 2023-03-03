@@ -1,79 +1,266 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/nav.css">
-         <!-- Add icon library -->
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Bootstrap Example</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
-  <body class="p-0 m-0 border-0 bd-example">
 
-    <!-- NAVBAR -->
-    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black ">
-      <div class="container-fluid ">
-        <a class="navbar-brand" href="#">
-          <img src="ASSETS/Copy of PIE-logo (3).png" alt="Bootstrap" width="130" height="60">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse navlc" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light ">
-            <li class="nav-item ">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " >About Us</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Office Bearers
-              </a>
-              <ul class="dropdown-menu bg-black text-white" style=" text-white">
-                <li><a class="dropdown-item" href="#">Office Bearers 2022</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">  Office Bearers 2021</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Office Bearers 2020</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Blogs</a>
-            </li>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/nav.css">
+  <link rel="stylesheet" href="src/css/events.css">
 
-          
-        </div>
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Bootstrap Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="p-0 m-0 border-0 bd-example">
+
+  <!-- NAVBAR -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black ">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#">
+        <img src="ASSETS/Copy of PIE-logo (3).png" alt="Bootstrap" width="130" height="60">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navlc" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-light ">
+          <li class="nav-item ">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Office Bearers
+            </a>
+            <ul class="dropdown-menu bg-black text-white">
+              <li><a class="dropdown-item" href="#">Office Bearers 2022</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#"> Office Bearers 2021</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Office Bearers 2020</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Blogs</a>
+          </li>
       </div>
-    </nav>
-    
-    <!-- NAVBAR end -->
+    </div>
+  </nav>
 
-    <div class="bg-image" style="
+  <!-- navbar end -->
+
+
+  <div class="bg-image" style="
     background-image: url('ASSETS/eventsmain.png');
     height: 600px;
     background-position: bottom;">
-   
-   <div class="bannerblog">
-    
-    <div class="d-flex justify-content-center align-items-center ">
-      <div class="text-white">
-        <h1 class="eventH" ><strong>EVENTS<br></strong></h1>
-        <p class="align-content-left evetpara">
-          Unexpected events can either set you back or set you up- It’s all a matter of perspective.
-         </p>
-       </div>
+
+    <div class="bannerblog">
+
+      <div class="d-flex justify-content-center align-items-center ">
+        <div class="text-white">
+          <h1 class="eventH"><strong>EVENTS<br></strong></h1>
+          <p class="align-content-left evetpara">
+            Unexpected events can either set you back or set you up- It’s all a matter of perspective.
+          </p>
+        </div>
       </div>
     </div>
-   </div>
-   
-   </header>
-    <!-- BANNER END-->
+  </div>
+
+  <div class="eventsection">
+    <h2>Upcoming Events</h2>
+    <div class="eventsub">
+      <div class="eventcard">
+        <div class="eventimg">
+          <img src="static/image/talkbus.jpg" alt="placeholder">
+        </div>
+        <div class="eventc">
+          <p class="eventname">
+            Event
+          </p>
+          <p class="eventd">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+      </div>
+      <div class="eventcard">
+        <div class="eventimg">
+          <img src="static/image/talkbus.jpg" alt="placeholder">
+        </div>
+        <div class="eventc">
+          <p class="eventname">
+            Event
+          </p>
+          <p class="eventd">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+      </div>
+      <div class="eventcard">
+        <div class="eventimg">
+          <img src="static/image/talkbus.jpg" alt="placeholder">
+        </div>
+        <div class="eventc">
+          <p class="eventname">
+            Event
+          </p>
+          <p class="eventd">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+      </div>
+      <div class="eventcard">
+        <div class="eventimg">
+          <img src="static/image/talkbus.jpg" alt="placeholder">
+        </div>
+        <div class="eventc">
+          <p class="eventname">
+            Event
+          </p>
+          <p class="eventd">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+      </div>
+      <div class="eventcard">
+        <div class="eventimg">
+          <img src="static/image/talkbus.jpg" alt="placeholder">
+        </div>
+        <div class="eventc">
+          <p class="eventname">
+            Event
+          </p>
+          <p class="eventd">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+      </div>
+      <div class="eventcard">
+        <div class="eventimg">
+          <img src="static/image/talkbus.jpg" alt="placeholder">
+        </div>
+        <div class="eventc">
+          <p class="eventname">
+            Event
+          </p>
+          <p class="eventd">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="eventsection">
+    <h2>Past Events</h2>
+    <div class="eventsub">
+      <div class="eventcard">
+        <div class="eventimg">
+          <img src="static/image/talkbus.jpg" alt="placeholder">
+        </div>
+        <div class="eventc">
+          <p class="eventname">
+            Event
+          </p>
+          <p class="eventd">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+      </div>
+      <div class="eventcard">
+        <div class="eventimg">
+          <img src="static/image/talkbus.jpg" alt="placeholder">
+        </div>
+        <div class="eventc">
+          <p class="eventname">
+            Event
+          </p>
+          <p class="eventd">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+      </div>
+      <div class="eventcard">
+        <div class="eventimg">
+          <img src="static/image/talkbus.jpg" alt="placeholder">
+        </div>
+        <div class="eventc">
+          <p class="eventname">
+            Event
+          </p>
+          <p class="eventd">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+      </div>
+      <div class="eventcard">
+        <div class="eventimg">
+          <img src="static/image/talkbus.jpg" alt="placeholder">
+        </div>
+        <div class="eventc">
+          <p class="eventname">
+            Event
+          </p>
+          <p class="eventd">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+      </div>
+      <div class="eventcard">
+        <div class="eventimg">
+          <img src="static/image/talkbus.jpg" alt="placeholder">
+        </div>
+        <div class="eventc">
+          <p class="eventname">
+            Event
+          </p>
+          <p class="eventd">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+      </div>
+      <div class="eventcard">
+        <div class="eventimg">
+          <img src="static/image/talkbus.jpg" alt="placeholder">
+        </div>
+        <div class="eventc">
+          <p class="eventname">
+            Event
+          </p>
+          <p class="eventd">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </header>
+  <!-- BANNER END-->
