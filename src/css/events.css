@@ -96,3 +96,24 @@
     font-family: Montserrat;
     margin-top: 0;
 }
+@media screen and (max-width: 600px) {
+    .eventsub {
+        grid-template-columns: auto;
+    }
+
+    .eventcard {
+        display: flex;
+        height: 15rem;
+        width: 100%;
+    }
+
+    .eventc {
+        width: 50%;
+    }
+
+    .eventimg {
+        width: 50%;
+        overflow: hidden;
+        height: 100%;
+    }
+}
