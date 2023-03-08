@@ -114,10 +114,11 @@ button{
 
 .postersec img{position: relative;
     height: 100%;
+    padding-right: 8rem;
     }
 .consec{
 
-    padding-right: 2rem;
+    padding-right: 4rem;
     flex: 4;
     height: fit-content;
 }

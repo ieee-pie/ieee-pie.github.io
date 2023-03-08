@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="src/css/footer.css">
   <link rel="stylesheet" href="src/css/nav.css">
   <link rel="stylesheet" href="src/css/index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -100,20 +102,31 @@
   </div>
   <!-- Carousel wrapper -->
   <div class="member">
-    <div class="noofm">
-      <p>1000+</p>
-      <p>Members</p>
-    </div>
-    <div class="noofm">
-      <p>1000+</p>
-      <p>Members</p>
-    </div>
+
+    <div data-aos="fade-up-right">
     <div class="noofm">
       <p>1000+</p>
       <p>Members</p>
     </div>
   </div>
+  <div data-aos="fade-up-left">
+    <div class="noofm">
+      <p>1000+</p>
+      <p>Members</p>
+    </div>
+  </div>
+
+  <div data-aos="fade-up-right">
+    <div class="noofm">
+      <p>1000+</p>
+      <p>Members</p>
+    </div>
+  </div>
+
+
+  </div>
   <div class="about">
+    
     <div class="absec">
         <h1>ABOUT US</h1>
         <p>Promotion of Innovation and Entrepreneurship, intends to support engineers in pursuing entrepreneurship, have a better understanding of Startups and supports them by giving them access to the right platforms and resources.</p>
@@ -129,10 +142,12 @@
     <div class="postersec">
       <img src="images/events/emanate.jpeg" alt="emanate">
     </div>
+    <div data-aos="fade-right">
     <div class="consec">
       <h1>UPCOMING EVENTS</h1>
       <p>A mega Techno-Managerial event with talks, workshops and fun games, bridging the gap between academia, business and society.</p>
     </div>
+  </div>
 
   </div>
   <!--FOOTER -->
@@ -171,6 +186,19 @@
   <!-- FOOTER END-->
 
 
+
+
+
+
+
+
+
+
+
+
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
