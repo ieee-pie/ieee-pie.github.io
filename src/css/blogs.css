@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Hind");
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 /*NAV */
-* {
-  margin: 0px;
-  padding: 0px;
-}
 
 /*BANNER*/
+.bg-image {
+  display: flex;
+  align-content: end;
+  flex-wrap: wrap;
+}
 
 .bannerblog {
   height: fit-content;
@@ -30,9 +31,9 @@
 /*BANNER END*/
 /*BLOGS*/
 .tx p {
-  font-family: "Pacifico", cursive;
+  font-family: "Hind";
 }
 .tx h5 {
-  font-family: "Gloock", serif;
+  font-family: "Montserrat";
 }
 /*FOOTER*/
