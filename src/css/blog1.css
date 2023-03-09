@@ -1,67 +1,37 @@
-/*NAV */
-* {
-  margin: 0px;
-  padding: 0px;
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+  .vb {
+    background-position: center;
+  }
+
+  .name {
+    margin-top: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .align-content-left {
+    text-align: justify;
+  }
 }
 
-/*MAIN*/
-.name h5 {
-  font-family: "Tilt Neon", cursive;
-  font-weight: 5px;
-  font-size: 25px;
-}
-.name p {
-  font-family: "Dosis", sans-serif;
-  font-size: 20px;
-  font-weight: 2px;
-}
-.name img {
-  max-width: 30%;
-  height: auto;
-}
-/*MAIN END*/
-/*FOOTER*/
+/* Tablet and desktop styles */
+@media only screen and (min-width: 768px) {
+  .vb {
+    background-position: bottom;
+  }
 
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 40px;
-  text-align: center;
-  text-decoration: none;
-}
+  .name {
+    margin-top: 0;
+  }
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
+  .card-title {
+    font-size: 2rem;
+  }
 
-/* Facebook */
-.fa-facebook {
-  color: white;
+  .align-content-left {
+    text-align: left;
+  }
 }
-
-/* Twitter */
-.fa-instagram {
-  color: white;
-}
-
-.fa-linkedin {
-  color: white;
-}
-
-.fa-youtube-play {
-  color: white;
-}
-.fa-spotify {
-  color: white;
-}
-.ft {
-  list-style-type: none;
-}
-.ftimg {
-  position: left;
-}
-.copy {
-  padding-top: 100px;
-} /*END OF FOOTER*/ ;
