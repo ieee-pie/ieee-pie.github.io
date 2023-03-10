@@ -66,6 +66,28 @@
 .haboutus {
   text-align: center;
 }
+.about a:link {
+  color: orangered;
+  background-color: transparent;
+  text-decoration: none;
+}
+.about a:visited {
+  color: rgb(255, 94, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.about a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.about a:active {
+  color: rgb(202, 36, 36);
+  background-color: transparent;
+  text-decoration: underline;
+}
 .mission {
   text-align: start;
 }
@@ -134,4 +156,29 @@
   margin-bottom: 0;
   text-align: start;
   color: #050505;
-} /*CAROUSEL END*/ ;
+} /*CAROUSEL END*/
+/**/
+.boxed {
+  border: 0.1rem solid white;
+  padding: 2rem;
+  margin: 2rem;
+}
+.boxed h5 {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2em;
+  color: #ffffff;
+  letter-spacing: 0.2em;
+}
+
+@media (max-width: 767px) {
+  .col-md-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .col-md-6 {
+    width: 100%;
+  }
+}
