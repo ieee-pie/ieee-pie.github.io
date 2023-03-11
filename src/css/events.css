@@ -27,6 +27,7 @@
   font-size: 1.5rem;
   padding-left: 0.2em;
 }
+/*EVENT*/
 .eventsection {
   box-sizing: border-box;
   position: relative;
@@ -49,6 +50,7 @@
   grid-row-gap: 1em;
   display: grid;
   grid-template-columns: auto auto auto;
+  padding-bottom: 2rem;
 }
 
 .eventcard {
