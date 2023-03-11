@@ -157,7 +157,7 @@
   text-align: start;
   color: #050505;
 } /*CAROUSEL END*/
-/**/
+/*YOUTUBE */
 .boxed {
   border: 0.1rem solid white;
   padding: 2rem;
@@ -171,14 +171,25 @@
   color: #ffffff;
   letter-spacing: 0.2em;
 }
-
+.boxed iframe {
+  width: -webkit-fill-available;
+  height: 50vh;
+}
 @media (max-width: 767px) {
   .col-md-4 {
     width: 100%;
     margin-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .col-md-6 {
     width: 100%;
   }
-}
+  .boxed h5 {
+    font-size: 1.5rem;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+  }
+} /*YOUTUBE END*/
