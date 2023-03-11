@@ -193,3 +193,25 @@
     font-weight: 400;
   }
 } /*YOUTUBE END*/
+/*awards*/
+.awards h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 73px;
+  letter-spacing: 0.1em;
+  margin-bottom: 0;
+  text-align: center;
+  color: #050505;
+}
+.awards p {
+  font-family: "Hind";
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.25 em;
+  color: #ffffff;
+}
+.awards hr {
+  color: #ffffff;
+}
