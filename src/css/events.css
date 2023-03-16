@@ -112,11 +112,20 @@
   font-family: Montserrat;
   margin-top: 0;
 }
+.eventsubp {
+  justify-content: space-between;
+  grid-row-gap: 1em;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-bottom: 2rem;
+}
 @media screen and (max-width: 600px) {
   .eventsub {
     grid-template-columns: auto;
   }
-
+  .eventsubp {
+    grid-template-columns: auto;
+  }
   .eventcard {
     display: flex;
     height: 15rem;
