@@ -1,90 +1,72 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Hind');
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Hind");
 
+.mainheading {
+  text-align: center;
+  padding-bottom: 10px;
 
-
-.mainheading
-{
-text-align: center;
-padding-bottom:10px;
-
-font-style: normal;
-font-weight: 600;
-font-size: 60px;
-line-height: 73px;
-
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 73px;
 }
-img
-{
-    
-    margin-left: auto;
-    margin-right: auto;
+img {
+  margin-left: auto;
+  margin-right: auto;
 }
-h2
-{
-    font-size: 1.5rem;
-    padding-top:.5em;
+h2 {
+  font-size: 1.5rem;
+  padding-top: 0.5em;
 }
-.subhead
-{
-    text-align: center;
-    padding-bottom:10px;
-  
-font-style: normal;
-font-weight: 600;
-font-size: 50px;
-line-height: 61px;
+.subhead {
+  text-align: center;
+  padding-bottom: 10px;
 
-color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
 
+  color: #000000;
 }
 
-.heading2
-{
-
-font-style: normal;
-font-weight: 600;
-font-size: 50px;
-line-height: 73px;
-text-align: center;
-color: #040000;
-
+.heading2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 73px;
+  text-align: center;
+  color: #040000;
 }
-.title
-{
-    text-align: center;
+.title {
+  text-align: center;
 }
-.proffesional
-{
-    width: 95%;
-    height:min-content ;
-    margin-left: 10px;
-    padding-left: 30px;
-    position: relative;
-    left:5px;
+.proffesional {
+  width: 95%;
+  height: min-content;
+  margin-left: 10px;
+  padding-left: 30px;
+  position: relative;
+  left: 5px;
 }
-.student-team1
-{
-    width: 100%;
-    margin-left: 10px;
-    padding-left: 30px;
-    position: relative;
-    left:5px;
+.student-team1 {
+  width: 100%;
+  margin-left: 10px;
+  padding-left: 30px;
+  position: relative;
+  left: 5px;
 }
-.student-team2
-{
-    width: 95%;
-    margin-left: 10px;
-    padding-left: 30px;
-    position: relative;
-    left:5px; 
+.student-team2 {
+  width: 95%;
+  margin-left: 10px;
+  padding-left: 30px;
+  position: relative;
+  left: 5px;
 }
-.student-team3
-{
-    
-    width: 95%;
-    margin-left: 10px;
-    padding-left: 30px;
-    position: relative;
-    left:5px; 
+.student-team3 {
+  width: 95%;
+  margin-left: 10px;
+  padding-left: 30px;
+  position: relative;
+  left: 5px;
 }
