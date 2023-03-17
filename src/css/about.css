@@ -97,15 +97,15 @@
 @media screen and (max-width: 500px) {
   .info p {
     font-weight: 200;
-    font-size: 1rem;
+    font-size: 1.5rem;
     overflow: hidden;
-    align-content: center;
+
   }
 
   .info h1 {
     font-size: 3rem;
     line-height: 73px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
   }
   .info h2 {
     font-size: 2rem;
@@ -154,7 +154,7 @@
   line-height: 73px;
   letter-spacing: 0.1em;
   margin-bottom: 0;
-  text-align: start;
+  text-align:center;
   color: #050505;
 } /*CAROUSEL END*/
 /*YOUTUBE */
