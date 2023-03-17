@@ -148,8 +148,8 @@
     height: 100%;
   }
   .bannerblog p {
-    font-size: 1rem;
-    padding-left: 0.1em;
+    font-size: 0.9rem;
+    
 }
 .bannerblog h1
 {
@@ -162,4 +162,11 @@ font-size: 4rem;
 line-height: 98px;
 letter-spacing: 0.15em;
 color: #ffffff;
+}
+.eventsection h2 {
+  font-size: 2rem;
+  padding: 2% 0 2% 0;
+  color: #000;
+  text-align: center;
+}
 }
