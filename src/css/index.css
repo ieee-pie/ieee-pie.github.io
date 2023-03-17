@@ -123,7 +123,55 @@ button {
   flex: 4;
   height: fit-content;
 }
+.eventInfo
+{
+  background-color: #fff;
+  margin-top: 2rem;
 
+}
+.Econtainer
+{
+  display: grid;
+  justify-content: center;
+}
+.eventInfo h1{
+  text-align: center;
+  padding: 1rem;
+  
+}
+.eventB
+{
+  text-align: center;
+  padding: 1rem;
+}
+
+
+
+.blog
+{
+  background-color:#fff;
+ 
+}
+.blog h1{
+  text-align: center;
+  
+   font-size:3rem;
+}
+.blog img{
+  padding: 2rem;
+}
+.blogp
+{
+  text-align: center;
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.blogb
+{
+  text-align: center;
+}
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 1rem;
@@ -137,5 +185,17 @@ button {
   .carousel-caption {
     text-align: center;
     left: 15%;
+  }
+
+  .eventInfo h1{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    
+  }
+  .Econtainer
+  {
+    display: grid;
+    padding-left: 3.5rem;
   }
 }
