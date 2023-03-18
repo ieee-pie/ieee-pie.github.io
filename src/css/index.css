@@ -3,6 +3,7 @@
 
 body {
   background-color: black;
+  overflow-x: hidden;
 }
 .carousel-caption {
   text-align: start;
