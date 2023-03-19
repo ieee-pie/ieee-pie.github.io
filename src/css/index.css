@@ -124,69 +124,55 @@ button {
   flex: 4;
   height: fit-content;
 }
-.eventInfo
-{
+.eventInfo {
   background-color: #fff;
   margin-top: 2rem;
-
 }
-.Econtainer
-{
+.Econtainer {
   display: grid;
   padding: 0 2vw;
   justify-content: center;
 }
-.eventInfo h1{
+.eventInfo h1 {
   text-align: center;
   padding: 1rem;
-  
 }
-.eventB
-{
+.eventB {
   text-align: center;
   padding: 1rem;
 }
 
-
-
-.blog
-{
-  background-color:#fff;
- 
+.blog {
+  background-color: #fff;
 }
-.blog h1{
+.blog h1 {
   text-align: center;
-  
-   font-size:3rem;
+
+  font-size: 3rem;
 }
-.blog img{
+.blog img {
   padding: 2rem;
 }
-.blogp p
-{
- 
-    text-align: center;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    font-size:1.5rem;
-    transform: translate(-50%, -50%);
-    font-weight:medium;
+.blogp p {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  font-size: 1.5rem;
+  transform: translate(-50%, -50%);
+  font-weight: medium;
 }
 
-.blogb
-{
- 
-    top: 60%;
-    position: absolute;
+.blogb {
+  top: 60%;
+  position: absolute;
 }
 
-.dcontainer{
+.dcontainer {
   display: flex;
   position: relative;
   justify-content: center;
 }
-
 
 @media screen and (max-width: 600px) {
   h1 {
@@ -203,43 +189,58 @@ button {
     left: 15%;
   }
 
-  .eventInfo h1{
+  .eventInfo h1 {
     text-align: center;
     padding: 1rem;
     font-size: 2rem;
-    
   }
-  .Econtainer
-  {
+  .Econtainer {
     display: grid;
     padding-left: 3.5rem;
   }
-  .blogp p{
-    
+  .blogp p {
     font-size: 0.65rem;
-    
   }
- 
 }
 
-
 @media screen and (max-width: 675px) {
-  .blogb{
+  .blogb {
     top: 65% !important;
   }
-  .blogp{
+  .blogp {
     top: 45%;
   }
 }
 @media screen and(max-width:900px) {
-
-  .blogp p{
-    
+  .blogp p {
     font-size: 0.65rem;
-    
   }
-  .blogb
-  {
+  .blogb {
     top: 70% !important;
   }
+}
+/*BUTTON*/
+.btn {
+  flex: 1 1 auto;
+  margin: 1rem;
+  padding: 0.7rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+}
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+  background-image: linear-gradient(
+    225.6deg,
+    #ff1f92 0%,
+    #ff5f1f 51%,
+    #ffd61f 100%
+  );
 }
