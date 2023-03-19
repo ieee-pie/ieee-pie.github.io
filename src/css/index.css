@@ -118,13 +118,28 @@ button {
 
   position: relative;
   height: 100%;
-  padding-right: 18rem;
+  
   top: 19%;
+  right: auto;
 }
 .consec {
   padding-right: 2rem;
-  flex: 4;
+  flex: 2;
   height: fit-content;
+  width: min-content;
+ 
+}
+.consec h1{
+  position: relative;
+  padding: 1rem;
+  bottom:15rem;
+  
+}
+.consec p{
+  position: relative;
+  padding-left: 1rem;
+  bottom: 12rem;
+  
 }
 .eventInfo {
   background-color: #fff;
@@ -203,6 +218,18 @@ button {
   }
   .blogp p {
     font-size: 0.65rem;
+  }
+  .consec h1{
+    position: relative;
+    padding: 1rem;
+    bottom:10rem;
+    
+  }
+  .consec p{
+    position: relative;
+    padding-left: 1rem;
+    bottom: 10rem;
+    
   }
 }
 
