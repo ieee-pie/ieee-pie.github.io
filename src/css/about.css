@@ -99,12 +99,20 @@ body{
   text-align: right;
 }
 @media screen and (max-width: 500px) {
+  body{
+    transform: translate(0%);
+  }
+  .main
+  {
+    transform: translate(0%);
+  }
   .info p {
     font-weight: 200;
     font-size: 1.5rem;
     overflow: hidden;
 
   }
+
 
   .info h1 {
     font-size: 3rem;
