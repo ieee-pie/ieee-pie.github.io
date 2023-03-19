@@ -115,31 +115,14 @@ button {
 }
 
 .postersec img {
-
   position: relative;
   height: 100%;
-  
-  top: 19%;
-  right: auto;
+  padding-right: 8rem;
 }
 .consec {
-  padding-right: 2rem;
-  flex: 2;
+  padding-right: 4rem;
+  flex: 4;
   height: fit-content;
-  width: min-content;
- 
-}
-.consec h1{
-  position: relative;
-  padding: 1rem;
-  bottom:15rem;
-  
-}
-.consec p{
-  position: relative;
-  padding-left: 1rem;
-  bottom: 12rem;
-  
 }
 .eventInfo {
   background-color: #fff;
@@ -157,7 +140,6 @@ button {
 .eventB {
   text-align: center;
   padding: 1rem;
-  padding-right: 5rem;;
 }
 
 .blog {
@@ -219,25 +201,6 @@ button {
   .blogp p {
     font-size: 0.65rem;
   }
-  .consec h1{
-    position: relative;
-    padding: 1rem;
-    bottom:10rem;
-    
-  }
-  .consec {
-    padding-right: 2rem;
-    flex: 2;
-    height: fit-content;
-    width: min-content;
-   
-  }
-  .consec p{
-    position: relative;
-    padding-left: 1rem;
-    bottom: 10rem;
-    
-  }
 }
 
 @media screen and (max-width: 675px) {
@@ -247,7 +210,6 @@ button {
   .blogp {
     top: 45%;
   }
-  
 }
 @media screen and(max-width:900px) {
   .blogp p {
