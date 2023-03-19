@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Hind");
+body{
+  transform: translate(0%);
+}
 .img-fluid {
   background-size: cover;
 }
@@ -123,6 +126,9 @@
   padding-bottom: 2rem;
 }
 @media screen and (max-width: 600px) {
+  body{
+    transform: translate(0%);
+  }
   .eventsub {
     grid-template-columns: auto;
   }

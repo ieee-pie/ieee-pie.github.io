@@ -177,7 +177,7 @@ button {
 .blogb
 {
  
-    top: 52%;
+    top: 60%;
     position: absolute;
 }
 
@@ -225,9 +225,21 @@ button {
 
 @media screen and (max-width: 675px) {
   .blogb{
-    top: 60% !important;
+    top: 65% !important;
   }
   .blogp{
-    top: 40%;
+    top: 45%;
+  }
+}
+@media screen and(max-width:900px) {
+
+  .blogp p{
+    
+    font-size: 0.65rem;
+    
+  }
+  .blogb
+  {
+    top: 70% !important;
   }
 }
