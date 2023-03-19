@@ -225,6 +225,13 @@ button {
     bottom:10rem;
     
   }
+  .consec {
+    padding-right: 2rem;
+    flex: 2;
+    height: fit-content;
+    width: min-content;
+   
+  }
   .consec p{
     position: relative;
     padding-left: 1rem;
