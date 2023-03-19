@@ -115,9 +115,11 @@ button {
 }
 
 .postersec img {
+
   position: relative;
   height: 100%;
-  padding-right: 8rem;
+  padding-right: 18rem;
+  top: 19%;
 }
 .consec {
   padding-right: 4rem;
@@ -210,6 +212,7 @@ button {
   .blogp {
     top: 45%;
   }
+  
 }
 @media screen and(max-width:900px) {
   .blogp p {
