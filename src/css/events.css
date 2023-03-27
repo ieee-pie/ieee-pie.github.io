@@ -44,6 +44,7 @@ body {
 }
 
 .eventsection h2 {
+  font-family: 'Inria Serif';
   font-size: 3rem;
   padding: 2% 0 2% 0;
   color: #000;
@@ -114,7 +115,7 @@ body {
 }
 
 .eventc p {
-  font-family: Montserrat;
+  font-family: 'Inria Serif';
   margin-top: 0;
 }
 .eventsubp {
