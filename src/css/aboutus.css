@@ -11,3 +11,12 @@ body {
     align-content: end;
     flex-wrap: wrap;
   }
+  .about
+  {
+    padding:1.5rem;
+    display:flex;
+  }
+  .about p{
+    justify-content: center;
+    top:10rem;
+  }
