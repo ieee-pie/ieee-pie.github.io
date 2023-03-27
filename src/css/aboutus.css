@@ -1,0 +1,11 @@
+body {
+    transform: translate(0%);
+  }
+  .img-fluid {
+    background-size: cover;
+  }
+  .bg-image {
+    display: flex;
+    align-content: end;
+    flex-wrap: wrap;
+  }
