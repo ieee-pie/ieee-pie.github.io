@@ -36,7 +36,7 @@
   }
 }
 .cardtext h5 {
-  font-family: "Montserrat";
+  font-family: "Inria Serif";
   font-style: normal;
   font-size: 1rem;
   letter-spacing: 0.1em;
@@ -46,8 +46,11 @@
 }
 .cardtext p {
   font-family: "Hind";
-  font-weight: 1rem;
-  font-size: 1rem;
-  line-height: 1.25 em;
-  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #D7D7D7;
+  text-align: justify;
+  
 }
