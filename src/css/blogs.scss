@@ -138,3 +138,10 @@ body {
   }
 }
 /*BANNER END*/
+/*FOOTER*/
+.ftlink a {
+  text-decoration: none;
+  &:hover {
+    color: orangered;
+  }
+}
