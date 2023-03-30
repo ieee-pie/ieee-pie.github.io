@@ -125,4 +125,11 @@ body {
     padding-left: 0.2em;
   }
 }
-/*BANNER END*//*# sourceMappingURL=blogs.css.map */
+/*BANNER END*/
+/*FOOTER*/
+.ftlink a {
+  text-decoration: none;
+}
+.ftlink a:hover {
+  color: orangered;
+}/*# sourceMappingURL=blogs.css.map */
