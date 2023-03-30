@@ -42,10 +42,13 @@ body {
   }
   .about img{
     height: 60vh;
+    width: 100%;
+  max-width: 500px;
   }
   .about p{
     justify-content: center;
     top:10rem;
+    font-size: medium;
     
   }
   .aboutcontent
@@ -207,5 +210,21 @@ line-height: 55px;
 }
 @media (max-width: 600px)
 {
+  .bannerblog
+  {
+    padding: 0;
+  }
+  .bannerblog h1 
+  {
+    font-size: 40px;
+  }
+  .bannerblog p
+  {
+    font-size: 20px;
+    text-align: justify;
+    word-wrap: break-word;
 
+  }
+  
+  
 }  
