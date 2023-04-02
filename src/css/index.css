@@ -78,6 +78,10 @@ p {
 }
 .consec {
   color: #fff;
+  padding: 1.5rem;
+  text-align: justify;
+  position: relative;
+  top: -10rem;
 }
 .logosec {
   display: flex;
@@ -126,13 +130,15 @@ button {
 .postersec img {
   position: relative;
   height: 100%;
-  padding-right: 8rem;
+  right: auto;
   padding-top: 5rem;
+  object-fit: scale-down;
 }
 .consec {
   padding-right: 4rem;
   flex: 4;
   height: fit-content;
+  word-wrap: break-word;
 }
 .eventInfo {
   background-color: #fff;
@@ -215,6 +221,11 @@ button {
   }
   .blogp p {
     font-size: 0.65rem;
+  }
+  .consec
+  {
+    position: relative;
+    top: -5rem;
   }
 }
 

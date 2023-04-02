@@ -31,6 +31,7 @@ body {
     display: flex;
     align-content: end;
     flex-wrap: wrap;
+    object-fit: scale-down;
   }
   .about
   {
@@ -44,6 +45,7 @@ body {
     height: 60vh;
     width: 100%;
   max-width: 500px;
+  object-fit: scale-down;
   }
   .about p{
     justify-content: center;
