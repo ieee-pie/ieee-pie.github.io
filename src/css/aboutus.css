@@ -1,39 +1,40 @@
-body {
+
+  body {
     transform: translate(0%);
     padding: 0;
     margin: 0;
   }
-.bannerblog
-{
-  color: #fff;
-  margin: 2rem;
-  padding:1.5rem;
-  position: relative;
- left: 2.5rem;
- bottom:1.5rem;
-
-  text-align: justify;
-}
-.bannerblog h1{
-  font-size: 5rem;
-  font-weight: 600;
-  line-height: 6.125rem;
-  /*font-family: "Montserrat";*/
-}
-.bannerblog p{
-  text-align: justify;
-  font-size: 2rem;
-}
-  .img-fluid {
-    background-size: cover;
-  }
+  
   .bg-image {
     display: flex;
     align-content: end;
     flex-wrap: wrap;
-    object-fit: scale-down;
+    overflow: hidden;
   }
-  .about
+  
+  .bannerblog {
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  .bannerblog h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 6.125rem;
+    color: #ffffff;
+  }
+  
+  .bannerblog p {
+    font-family: "Hind";
+    font-size: 1.5rem;
+    padding-left: 0.1em;
+    color: #ffffff;
+  }
+.about
   {
     padding:1.5rem;
     display:flex;
@@ -226,6 +227,10 @@ line-height: 55px;
     text-align: justify;
     word-wrap: break-word;
 
+  }
+  .about
+  {
+    display: block;
   }
   
   
