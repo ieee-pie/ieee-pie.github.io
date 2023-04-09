@@ -46,7 +46,11 @@
 .card.card-has-bg:hover .card-img-overlay {
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   background: rgb(35, 79, 109);
-  background: linear-gradient(0deg, rgba(250, 81, 3, 0.5) 0%, rgb(114, 35, 4) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(250, 81, 3, 0.5) 0%,
+    rgb(114, 35, 4) 100%
+  );
 }
 .card .card-footer {
   background: none;
@@ -72,7 +76,11 @@
 .card .card-img-overlay {
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   background: rgb(35, 79, 109);
-  background: linear-gradient(0deg, rgba(35, 79, 109, 0.3785889356) 0%, rgb(69, 95, 113) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(35, 79, 109, 0.3785889356) 0%,
+    rgb(69, 95, 113) 100%
+  );
 }
 
 /*NAV */
@@ -130,6 +138,4 @@ body {
 .ftlink a {
   text-decoration: none;
 }
-.ftlink a:hover {
-  color: orangered;
-}/*# sourceMappingURL=blogs.css.map */
+/*# sourceMappingURL=blogs.css.map */

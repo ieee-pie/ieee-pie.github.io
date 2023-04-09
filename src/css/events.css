@@ -198,3 +198,7 @@ body {
     #ffd61f 100%
   );
 }
+/*FOOTER*/
+.ftlink a {
+  text-decoration: none;
+}

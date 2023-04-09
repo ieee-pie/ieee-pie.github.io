@@ -47,7 +47,6 @@ body {
   margin: 2rem;
 }
 .about img {
-  height: 60vh;
   width: 100%;
   max-width: 500px;
   object-fit: scale-down;
@@ -228,4 +227,8 @@ body {
   .ftlink a:hover {
     color: orangered;
   }
+}
+/*FOOTER*/
+.ftlink a {
+  text-decoration: none;
 }
