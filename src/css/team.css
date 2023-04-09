@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Hind");
-body{
+body {
   transform: translate(0%);
 }
 
@@ -72,4 +72,8 @@ h2 {
   padding-left: 30px;
   position: relative;
   left: 5px;
+}
+/*FOOTER*/
+.ftlink a {
+  text-decoration: none;
 }
