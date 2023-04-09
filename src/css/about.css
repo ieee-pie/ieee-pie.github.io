@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Hind");
-body{
+body {
   transform: translate(0%);
 }
 
 .navbar-nav li a:hover {
   color: orange;
 }
+
 /*MISSION VISION*/
 .bgim {
   position: absolute;
@@ -99,20 +100,17 @@ body{
   text-align: right;
 }
 @media screen and (max-width: 500px) {
-  body{
+  body {
     transform: translate(0%);
   }
-  .main
-  {
+  .main {
     transform: translate(0%);
   }
   .info p {
     font-weight: 200;
     font-size: 1.5rem;
     overflow: hidden;
-
   }
-
 
   .info h1 {
     font-size: 3rem;
@@ -124,7 +122,6 @@ body{
     line-height: 73px;
     letter-spacing: 0.1em;
   }
-  
 }
 /*MISSION VISION end*/
 /*CAROUSEL*/
@@ -167,7 +164,7 @@ body{
   line-height: 73px;
   letter-spacing: 0.1em;
   margin-bottom: 0;
-  text-align:center;
+  text-align: center;
   color: #050505;
 } /*CAROUSEL END*/
 /*YOUTUBE */
@@ -221,7 +218,7 @@ body{
 .awards p {
   font-family: "Hind";
   font-weight: 400;
-  font-size:2rem;
+  font-size: 2rem;
   line-height: 1.25 em;
   color: #ffffff;
 }

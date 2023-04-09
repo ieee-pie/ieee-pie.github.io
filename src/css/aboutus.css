@@ -1,119 +1,107 @@
-
-  body {
-    transform: translate(0%);
-    padding: 0;
-    margin: 0;
-    background-image:url("images/gallery/Group.png");
-    background-repeat: no-repeat;
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Hind");
+body {
+  transform: translate(0%);
+  padding: 0;
+  margin: 0;
+  background-image: url("images/gallery/Group.png");
+  background-repeat: no-repeat;
   background-position: right;
   margin-right: 200px;
-  background-attachment:fixed;
-  }
-  
-  .bg-image {
-    display: flex;
-    align-content: end;
-    flex-wrap: wrap;
-    overflow: hidden;
-    
-  }
-  
-  .bannerblog {
-    height: -moz-fit-content;
-    height: fit-content;
-    margin-bottom: 20px;
-    margin-left: 20px;
-  }
-  
-  .bannerblog h1 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 5rem;
-    line-height: 6.125rem;
-    color: #ffffff;
-  }
-  
-  .bannerblog p {
-    font-family: "Hind";
-    font-size: 1.5rem;
-    padding-left: 0.1em;
-    color: #ffffff;
-  }
-.about
-  {
-    padding:1.5rem;
-    display:flex;
-    justify-content: center;
-    margin: 2rem;
+  background-attachment: fixed;
+}
 
-  }
-  .about img{
-    height: 60vh;
-    width: 100%;
+.bg-image {
+  display: flex;
+  align-content: end;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.bannerblog {
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.bannerblog h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 6.125rem;
+  color: #ffffff;
+}
+
+.bannerblog p {
+  font-family: "Hind";
+  font-size: 1.5rem;
+  padding-left: 0.1em;
+  color: #ffffff;
+}
+.about {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.about img {
+  height: 60vh;
+  width: 100%;
   max-width: 500px;
   object-fit: scale-down;
-  border-radius:10%;
-  }
-  .about p{
-    justify-content: center;
-    top:10rem;
-    font-size: medium;
-    
-  }
-  .aboutcontent
-  {
-    padding: 1.5rem;
-    
-  }
-  .aboutcontent h1
-  {
-    padding-bottom: 2rem;
-    font-weight: 800;
-    font-family: 'Inria Serif';
-  }
-  .aboutcontent p{
-    text-align: left;
-    font-weight: 430;
-    font-size: xx-large;
-    line-height: 55px;
-  }
-  .mission
-  {
-    padding:1.5rem;
-    margin: 2rem;
-    
-  }
-  .mission h1{
-    padding-bottom: 2rem;
-    font-weight: 800;
-    font-family: 'Inria Serif';
-    
-  }
-.mission p
-{
-  text-align: left;
-  font-weight: 430;
-  font-size:xx-large;
-  line-height: 55px;
+  border-radius: 10%;
 }
-.vision
-{
-  padding:1.5rem;
-  text-align: left;
-  margin: 2rem;  
+.about p {
+  justify-content: center;
+  top: 10rem;
+  font-size: medium;
 }
-.vision h1{
+.aboutcontent {
+  padding: 1.5rem;
+}
+.aboutcontent h1 {
   padding-bottom: 2rem;
   font-weight: 800;
-  font-family: 'Inria Serif';
+  font-family: "Inria Serif";
 }
-.vision p
-{
-text-align: left;
-font-weight: 430;
-font-size:xx-large;
-line-height: 55px;
+.aboutcontent p {
+  text-align: left;
+  font-weight: 430;
+  font-size: xx-large;
+  line-height: 55px;
+}
+.mission {
+  padding: 1.5rem;
+  margin: 2rem;
+}
+.mission h1 {
+  padding-bottom: 2rem;
+  font-weight: 800;
+  font-family: "Inria Serif";
+}
+.mission p {
+  text-align: left;
+  font-weight: 430;
+  font-size: xx-large;
+  line-height: 55px;
+}
+.vision {
+  padding: 1.5rem;
+  text-align: left;
+  margin: 2rem;
+}
+.vision h1 {
+  padding-bottom: 2rem;
+  font-weight: 800;
+  font-family: "Inria Serif";
+}
+.vision p {
+  text-align: left;
+  font-weight: 430;
+  font-size: xx-large;
+  line-height: 55px;
 }
 
 /*CAROUSEL*/
@@ -156,7 +144,7 @@ line-height: 55px;
   line-height: 73px;
   letter-spacing: 0.1em;
   margin-bottom: 0;
-  text-align:center;
+  text-align: center;
   color: #050505;
 }
 
@@ -171,7 +159,7 @@ line-height: 55px;
   font-weight: 400;
   font-size: 2rem;
   line-height: 2em;
-  color:black;
+  color: black;
   letter-spacing: 0.2em;
 }
 .boxed iframe {
@@ -192,7 +180,7 @@ line-height: 55px;
   .boxed h5 {
     font-size: 1.5rem;
     line-height: 1em;
-    font-family: 'Hind';
+    font-family: "Hind";
     font-weight: 400;
   }
 } /*YOUTUBE END*/
@@ -216,34 +204,28 @@ line-height: 55px;
   color: black;
 }
 .awards hr {
-  color:black;
+  color: black;
 }
-@media (max-width: 600px)
-{
-  .bannerblog
-  {
+@media (max-width: 600px) {
+  .bannerblog {
     padding: 0;
   }
-  .bannerblog h1 
-  {
+  .bannerblog h1 {
     font-size: 38px;
   }
-  .bannerblog p
-  {
+  .bannerblog p {
     font-size: 14px;
     text-align: justify;
     word-wrap: break-word;
-
   }
-  .about
-  {
+  .about {
     display: block;
   }
-  
+
   .ftlink a {
     text-decoration: none;
   }
   .ftlink a:hover {
     color: orangered;
   }
-}  
+}
