@@ -12,6 +12,7 @@ body {
   font-weight: 600;
   font-size: 60px;
   line-height: 73px;
+  font-family: "Inria-Seriff";
 }
 img {
   margin-left: auto;
@@ -24,7 +25,7 @@ h2 {
 .subhead {
   text-align: center;
   padding-bottom: 10px;
-
+  font-family: "Inria-Seriff";
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -40,6 +41,7 @@ h2 {
   line-height: 73px;
   text-align: center;
   color: #555555;
+  font-family: "Inria-Seriff";
 }
 .title {
   text-align: center;
