@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Hind");
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body {
   transform: translate(0%);
 }
@@ -44,7 +46,7 @@ body {
 }
 
 .eventsection h2 {
-  font-family: "Inria Serif";
+  font-family: 'Open Sans';
   font-size: 3rem;
   padding: 2% 0 2% 0;
   color: #000;
