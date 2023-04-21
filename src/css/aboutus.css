@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Hind");
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Nunito&display=swap');
 body {
   transform: translate(0%);
   padding: 0;
@@ -63,7 +64,7 @@ body {
 .aboutcontent h1 {
   padding-bottom: 2rem;
   font-weight: 800;
-  font-family: "Inria Serif";
+  font-family: "Nunito";
 }
 .aboutcontent p {
   text-align: left;
@@ -78,7 +79,7 @@ body {
 .mission h1 {
   padding-bottom: 2rem;
   font-weight: 800;
-  font-family: "Inria Serif";
+  font-family: "Nunito";
 }
 .mission p {
   text-align: left;
@@ -94,7 +95,7 @@ body {
 .vision h1 {
   padding-bottom: 2rem;
   font-weight: 800;
-  font-family: "Inria Serif";
+  font-family: "Nunito";
 }
 .vision p {
   text-align: left;
@@ -136,7 +137,7 @@ body {
   height: 15rem;
 }
 .gal h2 {
-  font-family: "Inria Serif";
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 3rem;
@@ -185,7 +186,7 @@ body {
 } /*YOUTUBE END*/
 /*awards*/
 .awards h2 {
-  font-family: "Inria Serif";
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 3rem;

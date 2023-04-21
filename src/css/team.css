@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Hind");
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Nunito&display=swap');
 body {
   transform: translate(0%);
 }
@@ -12,7 +13,7 @@ body {
   font-weight: 600;
   font-size: 60px;
   line-height: 73px;
-  font-family: "Inria-Seriff";
+  font-family: "Nunito";
 }
 img {
   margin-left: auto;
@@ -25,7 +26,7 @@ h2 {
 .subhead {
   text-align: center;
   padding-bottom: 10px;
-  font-family: "Inria-Seriff";
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -41,7 +42,7 @@ h2 {
   line-height: 73px;
   text-align: center;
   color: #555555;
-  font-family: "Inria-Seriff";
+  font-family: "Nunito";
 }
 .title {
   text-align: center;
