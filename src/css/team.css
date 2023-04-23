@@ -4,6 +4,10 @@
 body {
   transform: translate(0%);
 }
+.dropdown-item.active {
+  background-color: #FFFFFF; /* Set the background color for active option */
+  color: #FFFFFF; /* Set the text color for active option */
+}
 
 .mainheading {
   text-align: center;
