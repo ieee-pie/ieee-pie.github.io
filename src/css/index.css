@@ -305,3 +305,6 @@ button {
     #ffd61f 100%
   );
 }
+.ftlink a {
+  text-decoration: none;
+}
