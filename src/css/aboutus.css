@@ -220,13 +220,45 @@ body {
   }
   .about {
     display: block;
+      padding:0.5rem;   
+      margin: 0.5rem;
+    
   }
-
+  .mission {
+    padding: 1.5rem;
+    margin: 0.5rem;
+  }
+  .mission p {
+    text-align: justify;
+    font-weight: bold;
+    font-size: large;
+    line-height: 2;
+  }
+  .vision
+  {
+    padding: 1.5rem;
+    margin: 0.5rem;
+  }
+  .vision p
+  {
+    text-align: justify;
+    font-weight: bold;
+    font-size: large;
+    line-height: 2;
+  }
   .ftlink a {
     text-decoration: none;
   }
   .ftlink a:hover {
     color: orangered;
+  }
+
+  .aboutcontent p {
+    text-align: justify;
+    font-weight: bold;
+    font-size: large;
+    line-height: 2;
+   
   }
 }
 /*FOOTER*/

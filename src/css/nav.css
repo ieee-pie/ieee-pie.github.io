@@ -1,14 +1,14 @@
 /*NAV */
 
-/*.navbar-nav li a:hover{
-  background-color: white ;
-  color:black;
-}*/
+.navbar-nav li a:hover{
+  background-color:black ;
+  color:white;
+}
 
-.subnav:hover::after
+.subnav:hover
 {
-  color :black;
-  background-color: white;
+  
+  background-color: red;
 }
 
 .nav-link {
